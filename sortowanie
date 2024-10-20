@@ -1,0 +1,261 @@
+
+using System;
+using System.Diagnostics;
+using System.Windows.Forms;
+using System.Data;
+
+
+namespace sortowanie
+{
+    public partial class Form1 : Form
+    {
+       private int[] arrayGlobal;
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+            Stopwatch stopwatch = Stopwatch.StartNew();
+
+
+            for (int i = 0; i < arrayGlobal.Length - 1; i++)
+            {
+                for (int j = 0; j < arrayGlobal.Length - i - 1; j++)
+                {
+                    if (arrayGlobal[j] > arrayGlobal[j + 1])
+                    {
+                        int k = arrayGlobal[j];
+                        arrayGlobal[j] = arrayGlobal      [j + 1];
+                        arrayGlobal[j + 1] = k;
+                    }
+                }
+            }
+            textBox1.Text = "";
+            foreach (int i in arrayGlobal)
+            {
+                textBox1.AppendText(i.ToString() + " \r \n ");
+            }
+            label1.Text = $"Czas Sortowania:{stopwatch.ElapsedMilliseconds}ms";
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+           
+            Stopwatch stopwatch = Stopwatch.StartNew();
+
+            InsertionSort(arrayGlobal);
+            DisplayArray(arrayGlobal);
+            label1.Text = $"Czas Sortowania:{stopwatch.ElapsedMilliseconds}ms";
+
+
+        }
+        private void InsertionSort(int[] arr)
+        {
+            for (int i = 0; i < arr.Length; i++)
+            {
+                int key = arr[i];
+                int j = i - 1;
+                while (j >= 0 && arr[j] > key)
+                {
+                    arr[j + 1] = arr[j];
+                    j--;
+                }
+                arr[j + 1] = key;
+            }
+        }
+        private void DisplayArray(int[] arr)
+        {
+            Stopwatch stopwatch = Stopwatch.StartNew();
+
+            textBox1.Text = "";
+            foreach (int i in arr)
+            {
+                textBox1.AppendText(i.ToString() + "\r \n ");
+            }
+            label1.Text = $"Czas Sortowania:{stopwatch.ElapsedMilliseconds}ms";
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            
+            Stopwatch stopwatch = Stopwatch.StartNew();
+            MergeSort(arrayGlobal, 0, arrayGlobal.Length - 1);
+            textBox1.Text = "";
+            foreach (int i in arrayGlobal)
+            {
+                textBox1.AppendText(i + " \r  ");
+            }
+            label1.Text = $"Czas Sortowania:{stopwatch.ElapsedMilliseconds}Ms";
+        }
+
+        private void MergeSort(int[] arr, int left, int right)
+        {
+            if (left < right)
+            {
+                int mid = left + (right - left) / 2;
+                MergeSort(arr, left, mid);
+                MergeSort(arr, mid + 1, right);
+                Merge(arr, left, mid, right);
+            }
+
+        }
+        private void Merge(int[] arr, int left, int mid, int right)
+        {
+            int i, j, k;
+            int n1 = mid - left + 1;
+            int n2 = right - mid;
+            int[] L = new int[n1];
+            int[] R = new int[n2];
+            for (i = 0; i < n1; ++i)
+                L[i] = arr[left + i];
+            for (j = 0; j < n2; ++j)
+                R[j] = arr[mid + 1 + j];
+            i = 0;
+            j = 0;
+            k = left;
+            while (i < n1 && j < n2)
+            {
+                if (L[i] <= R[j])
+                {
+                    arr[k++] = L[i++];
+                }
+                else
+                {
+                    arr[k++] = R[j++];
+                }
+            }
+            while (i < n1)
+            {
+                arr[k++] = L[i++];
+            }
+            while (j < n2)
+            {
+                arr[k++] = R[j++];
+            }
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            
+            Stopwatch stopwatch = Stopwatch.StartNew();
+
+            QuickSort(arrayGlobal, 0, arrayGlobal.Length - 1);
+            textBox1.Text = "";
+            foreach (int i in arrayGlobal)
+            {
+                textBox1.AppendText(i + " \r ");
+            }
+            label1.Text = $"Czas Sortowania:{stopwatch.ElapsedMilliseconds}ms";
+
+        }
+        private void QuickSort(int[] arr, int left, int right)
+        {
+            if (left < right)
+            {
+                int pivot = Partition(arr, left, right);
+                QuickSort(arr, pivot, right);
+                QuickSort(arr, pivot + 1, right);
+            }
+        }
+        private int Partition(int[] arr, int left, int right)
+        {
+            int pivot = arr[right];
+            int i = left - 1;
+            for (int j = left; j <= right - 1; j++)
+            {
+                if (arr[j] < pivot)
+                {
+                    i++;
+                    Swap(arr, i, j);
+                }
+            }
+            Swap(arr, i + 1, right);
+            return i + 1;
+        }
+        private void Swap(int[] arr, int i, int j)
+        {
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+           
+            Stopwatch stopwatch = Stopwatch.StartNew();
+
+            CountingSort(arrayGlobal);
+            textBox1.Text = "";
+            foreach (int i in arrayGlobal)
+            {
+                textBox1.AppendText(i + " \r ");
+            }
+            label1.Text = $"Czas Sortowania:{stopwatch.ElapsedMilliseconds}ms";
+
+        }
+        private void CountingSort(int[] arr)
+        {
+            int max = arr.Max();
+            int min = arr.Min();
+            int range = max - min + 1;
+
+            int[] count = new int[range];
+            int[] output = new int[arr.Length];
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                count[arr[i] - min]++;
+            }
+            for (int i = 1; i < count.Length; i++)
+            {
+                count[i] += count[i - 1];
+
+            }
+            for (int i = arr.Length - 1; i >= 0; i--)
+            {
+                output[count[arr[i] - min] - 1] = arr[i];
+                count[arr[i] - min]--;
+            }
+            for (int i = 0; i < arr.Length; i++)
+            {
+                arr[i] = output[i];
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Stopwatch stopwatch = Stopwatch.StartNew();
+
+            int size = Convert.ToInt32(numericUpDown1.Value);
+            int[] array = GenerateArray(size, -100, 100);
+            textBox1.Text = "";
+            foreach (int i in arrayGlobal) { 
+                textBox1.AppendText(i.ToString() + " \r \n ");
+            }
+            label1.Text = $"Czas Sortowania:{stopwatch.ElapsedMilliseconds}ms";
+
+
+        }
+        private int[] GenerateArray(int size, int min,int max)
+        {
+            arrayGlobal = new int[size];
+            Random rand = new Random();
+
+            for(int i = 0; i < size; i++)
+            {
+                arrayGlobal[i] = rand.Next(min,max+1);
+            }
+            return arrayGlobal;
+        }
+    }
+
+}
+
+
