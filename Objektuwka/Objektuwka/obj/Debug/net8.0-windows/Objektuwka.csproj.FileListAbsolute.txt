@@ -1,0 +1,17 @@
+D:\C#\Objektuwka\Objektuwka\bin\Debug\net8.0-windows\Objektuwka.exe
+D:\C#\Objektuwka\Objektuwka\bin\Debug\net8.0-windows\Objektuwka.deps.json
+D:\C#\Objektuwka\Objektuwka\bin\Debug\net8.0-windows\Objektuwka.runtimeconfig.json
+D:\C#\Objektuwka\Objektuwka\bin\Debug\net8.0-windows\Objektuwka.dll
+D:\C#\Objektuwka\Objektuwka\bin\Debug\net8.0-windows\Objektuwka.pdb
+D:\C#\Objektuwka\Objektuwka\obj\Debug\net8.0-windows\Objektuwka.Form1.resources
+D:\C#\Objektuwka\Objektuwka\obj\Debug\net8.0-windows\Objektuwka.csproj.GenerateResource.cache
+D:\C#\Objektuwka\Objektuwka\obj\Debug\net8.0-windows\Objektuwka.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Objektuwka\Objektuwka\obj\Debug\net8.0-windows\Objektuwka.AssemblyInfoInputs.cache
+D:\C#\Objektuwka\Objektuwka\obj\Debug\net8.0-windows\Objektuwka.AssemblyInfo.cs
+D:\C#\Objektuwka\Objektuwka\obj\Debug\net8.0-windows\Objektuwka.csproj.CoreCompileInputs.cache
+D:\C#\Objektuwka\Objektuwka\obj\Debug\net8.0-windows\Objektuwka.dll
+D:\C#\Objektuwka\Objektuwka\obj\Debug\net8.0-windows\refint\Objektuwka.dll
+D:\C#\Objektuwka\Objektuwka\obj\Debug\net8.0-windows\Objektuwka.pdb
+D:\C#\Objektuwka\Objektuwka\obj\Debug\net8.0-windows\Objektuwka.genruntimeconfig.cache
+D:\C#\Objektuwka\Objektuwka\obj\Debug\net8.0-windows\ref\Objektuwka.dll
+D:\C#\Objektuwka\Objektuwka\obj\Debug\net8.0-windows\Objektuwka.Properties.Resources.resources
