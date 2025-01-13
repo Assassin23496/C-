@@ -1,0 +1,16 @@
+D:\C#\Dzewa\Dzewa\Dzewa\bin\Debug\net8.0-windows\Dzewa.exe
+D:\C#\Dzewa\Dzewa\Dzewa\bin\Debug\net8.0-windows\Dzewa.deps.json
+D:\C#\Dzewa\Dzewa\Dzewa\bin\Debug\net8.0-windows\Dzewa.runtimeconfig.json
+D:\C#\Dzewa\Dzewa\Dzewa\bin\Debug\net8.0-windows\Dzewa.dll
+D:\C#\Dzewa\Dzewa\Dzewa\bin\Debug\net8.0-windows\Dzewa.pdb
+D:\C#\Dzewa\Dzewa\Dzewa\obj\Debug\net8.0-windows\Dzewa.Form1.resources
+D:\C#\Dzewa\Dzewa\Dzewa\obj\Debug\net8.0-windows\Dzewa.csproj.GenerateResource.cache
+D:\C#\Dzewa\Dzewa\Dzewa\obj\Debug\net8.0-windows\Dzewa.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Dzewa\Dzewa\Dzewa\obj\Debug\net8.0-windows\Dzewa.AssemblyInfoInputs.cache
+D:\C#\Dzewa\Dzewa\Dzewa\obj\Debug\net8.0-windows\Dzewa.AssemblyInfo.cs
+D:\C#\Dzewa\Dzewa\Dzewa\obj\Debug\net8.0-windows\Dzewa.csproj.CoreCompileInputs.cache
+D:\C#\Dzewa\Dzewa\Dzewa\obj\Debug\net8.0-windows\Dzewa.dll
+D:\C#\Dzewa\Dzewa\Dzewa\obj\Debug\net8.0-windows\refint\Dzewa.dll
+D:\C#\Dzewa\Dzewa\Dzewa\obj\Debug\net8.0-windows\Dzewa.pdb
+D:\C#\Dzewa\Dzewa\Dzewa\obj\Debug\net8.0-windows\Dzewa.genruntimeconfig.cache
+D:\C#\Dzewa\Dzewa\Dzewa\obj\Debug\net8.0-windows\ref\Dzewa.dll
