@@ -1,0 +1,16 @@
+D:\C#\Kod_Huffmana\Kod_Huffmana\bin\Debug\net8.0-windows\Kod_Huffmana.exe
+D:\C#\Kod_Huffmana\Kod_Huffmana\bin\Debug\net8.0-windows\Kod_Huffmana.deps.json
+D:\C#\Kod_Huffmana\Kod_Huffmana\bin\Debug\net8.0-windows\Kod_Huffmana.runtimeconfig.json
+D:\C#\Kod_Huffmana\Kod_Huffmana\bin\Debug\net8.0-windows\Kod_Huffmana.dll
+D:\C#\Kod_Huffmana\Kod_Huffmana\bin\Debug\net8.0-windows\Kod_Huffmana.pdb
+D:\C#\Kod_Huffmana\Kod_Huffmana\obj\Debug\net8.0-windows\Kod_Huffmana.Form1.resources
+D:\C#\Kod_Huffmana\Kod_Huffmana\obj\Debug\net8.0-windows\Kod_Huffmana.csproj.GenerateResource.cache
+D:\C#\Kod_Huffmana\Kod_Huffmana\obj\Debug\net8.0-windows\Kod_Huffmana.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Kod_Huffmana\Kod_Huffmana\obj\Debug\net8.0-windows\Kod_Huffmana.AssemblyInfoInputs.cache
+D:\C#\Kod_Huffmana\Kod_Huffmana\obj\Debug\net8.0-windows\Kod_Huffmana.AssemblyInfo.cs
+D:\C#\Kod_Huffmana\Kod_Huffmana\obj\Debug\net8.0-windows\Kod_Huffmana.csproj.CoreCompileInputs.cache
+D:\C#\Kod_Huffmana\Kod_Huffmana\obj\Debug\net8.0-windows\Kod_Huffmana.dll
+D:\C#\Kod_Huffmana\Kod_Huffmana\obj\Debug\net8.0-windows\refint\Kod_Huffmana.dll
+D:\C#\Kod_Huffmana\Kod_Huffmana\obj\Debug\net8.0-windows\Kod_Huffmana.pdb
+D:\C#\Kod_Huffmana\Kod_Huffmana\obj\Debug\net8.0-windows\Kod_Huffmana.genruntimeconfig.cache
+D:\C#\Kod_Huffmana\Kod_Huffmana\obj\Debug\net8.0-windows\ref\Kod_Huffmana.dll
