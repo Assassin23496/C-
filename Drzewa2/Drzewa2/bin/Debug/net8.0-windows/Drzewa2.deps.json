@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Drzewa2/1.0.0": {
+        "runtime": {
+          "Drzewa2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Drzewa2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

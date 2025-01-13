@@ -1,0 +1,16 @@
+D:\C#\Drzewa2\Drzewa2\obj\Debug\net8.0-windows\Drzewa2.Form1.resources
+D:\C#\Drzewa2\Drzewa2\obj\Debug\net8.0-windows\Drzewa2.csproj.GenerateResource.cache
+D:\C#\Drzewa2\Drzewa2\obj\Debug\net8.0-windows\Drzewa2.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Drzewa2\Drzewa2\obj\Debug\net8.0-windows\Drzewa2.AssemblyInfoInputs.cache
+D:\C#\Drzewa2\Drzewa2\obj\Debug\net8.0-windows\Drzewa2.AssemblyInfo.cs
+D:\C#\Drzewa2\Drzewa2\obj\Debug\net8.0-windows\Drzewa2.csproj.CoreCompileInputs.cache
+D:\C#\Drzewa2\Drzewa2\bin\Debug\net8.0-windows\Drzewa2.exe
+D:\C#\Drzewa2\Drzewa2\bin\Debug\net8.0-windows\Drzewa2.deps.json
+D:\C#\Drzewa2\Drzewa2\bin\Debug\net8.0-windows\Drzewa2.runtimeconfig.json
+D:\C#\Drzewa2\Drzewa2\bin\Debug\net8.0-windows\Drzewa2.dll
+D:\C#\Drzewa2\Drzewa2\bin\Debug\net8.0-windows\Drzewa2.pdb
+D:\C#\Drzewa2\Drzewa2\obj\Debug\net8.0-windows\Drzewa2.dll
+D:\C#\Drzewa2\Drzewa2\obj\Debug\net8.0-windows\refint\Drzewa2.dll
+D:\C#\Drzewa2\Drzewa2\obj\Debug\net8.0-windows\Drzewa2.pdb
+D:\C#\Drzewa2\Drzewa2\obj\Debug\net8.0-windows\Drzewa2.genruntimeconfig.cache
+D:\C#\Drzewa2\Drzewa2\obj\Debug\net8.0-windows\ref\Drzewa2.dll
