@@ -1,0 +1,16 @@
+D:\C#\DzewaRozpinajace\DzewaRozpinajace\bin\Debug\net8.0-windows\DzewaRozpinajace.exe
+D:\C#\DzewaRozpinajace\DzewaRozpinajace\bin\Debug\net8.0-windows\DzewaRozpinajace.deps.json
+D:\C#\DzewaRozpinajace\DzewaRozpinajace\bin\Debug\net8.0-windows\DzewaRozpinajace.runtimeconfig.json
+D:\C#\DzewaRozpinajace\DzewaRozpinajace\bin\Debug\net8.0-windows\DzewaRozpinajace.dll
+D:\C#\DzewaRozpinajace\DzewaRozpinajace\bin\Debug\net8.0-windows\DzewaRozpinajace.pdb
+D:\C#\DzewaRozpinajace\DzewaRozpinajace\obj\Debug\net8.0-windows\DzewaRozpinajace.Form1.resources
+D:\C#\DzewaRozpinajace\DzewaRozpinajace\obj\Debug\net8.0-windows\DzewaRozpinajace.csproj.GenerateResource.cache
+D:\C#\DzewaRozpinajace\DzewaRozpinajace\obj\Debug\net8.0-windows\DzewaRozpinajace.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\DzewaRozpinajace\DzewaRozpinajace\obj\Debug\net8.0-windows\DzewaRozpinajace.AssemblyInfoInputs.cache
+D:\C#\DzewaRozpinajace\DzewaRozpinajace\obj\Debug\net8.0-windows\DzewaRozpinajace.AssemblyInfo.cs
+D:\C#\DzewaRozpinajace\DzewaRozpinajace\obj\Debug\net8.0-windows\DzewaRozpinajace.csproj.CoreCompileInputs.cache
+D:\C#\DzewaRozpinajace\DzewaRozpinajace\obj\Debug\net8.0-windows\DzewaRozpinajace.dll
+D:\C#\DzewaRozpinajace\DzewaRozpinajace\obj\Debug\net8.0-windows\refint\DzewaRozpinajace.dll
+D:\C#\DzewaRozpinajace\DzewaRozpinajace\obj\Debug\net8.0-windows\DzewaRozpinajace.pdb
+D:\C#\DzewaRozpinajace\DzewaRozpinajace\obj\Debug\net8.0-windows\DzewaRozpinajace.genruntimeconfig.cache
+D:\C#\DzewaRozpinajace\DzewaRozpinajace\obj\Debug\net8.0-windows\ref\DzewaRozpinajace.dll
